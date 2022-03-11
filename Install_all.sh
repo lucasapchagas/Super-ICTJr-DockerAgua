@@ -15,5 +15,3 @@ rm docker-ce_20.10.9~3-0~ubuntu-focal_amd64.deb
 sudo docker run hello-world
 
 sudo docker pull synomi/thingspeak
-sudo docker run --name mysql55 -e MYSQL_ROOT_PASSWORD=speak -d mysql:5.5
-sudo docker run --name thingspeak -p 80:80 --link mysql55:mysql -d synomi/thingspeak
