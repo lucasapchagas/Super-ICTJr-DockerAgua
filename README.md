@@ -1,6 +1,7 @@
 # Super-ICTJr-TrabalhoFinal
 
 Para instalar, primeiro inicie o repositório em uma pasta vazia. Necessário tem o git instalado.
+
 `git clone https://github.com/lucasapchagas/Super-ICTJr-TrabalhoFinal.git`
 
 Caso você queira instalar somente o docker use
