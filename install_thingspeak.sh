@@ -6,3 +6,5 @@ echo "Dormindo por 10 segundos"
 sleep 10
 docker exec -it thingspeak rake db:create
 docker exec -it thingspeak rake db:schema:load
+echo "A instalação do ThingSpeak terminou"
+echo "Script por Lucas Chagas."
