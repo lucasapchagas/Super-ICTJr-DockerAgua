@@ -17,5 +17,3 @@ sudo docker run hello-world
 sudo docker pull synomi/thingspeak
 sudo docker run --name mysql55 -e MYSQL_ROOT_PASSWORD=speak -d mysql:5.5
 sudo docker run --name thingspeak -p 80:80 --link mysql55:mysql -d synomi/thingspeak
-sudo docker exec -it thingspeak rake db:create
-sudo docker exec -it thingspeak rake db:schema:load
