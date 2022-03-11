@@ -2,7 +2,7 @@
 
 Para instalar, primeiro inicie o repositório em uma pasta vazia. Necessário tem o git instalado.
 
-`git clone https://github.com/lucasapchagas/Super-ICTJr-TrabalhoFinal.git`
+`git clone https://github.com/lucasapchagas/Super-ICTJr-TrabalhoFinal.git && cd Super-ICTJr-TrabalhoFinal`
 
 Caso você queira instalar somente o docker use
 `sudo bash install_docker.sh`
